@@ -223,36 +223,22 @@
     .product-info { padding: 14px; }
     .product-title { font-weight: 500; font-size: 0.85rem; }
     .price { font-weight: 600; color: var(--accent-pink); margin-top: 4px; font-size: 0.95rem; }
-    .btn-buy {
+    .btn-copy {
       display: inline-block;
       margin-top: 10px;
       background: #111;
       color: white;
-      padding: 7px 18px;
+      border: 1px solid #111;
+      padding: 7px 14px;
       border-radius: 4px;
-      text-decoration: none;
-      font-size: 0.7rem;
+      font-size: 0.65rem;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.5px;
-      transition: background 0.2s;
-      cursor: pointer;
-    }
-    .btn-buy:hover { background: var(--accent-pink); }
-    .btn-copy {
-      display: inline-block;
-      margin-top: 6px;
-      background: transparent;
-      border: 1px solid #DDD;
-      color: #666;
-      padding: 5px 12px;
-      border-radius: 4px;
-      font-size: 0.6rem;
-      font-weight: 500;
       cursor: pointer;
       transition: all 0.2s;
     }
-    .btn-copy:hover { border-color: var(--accent-pink); color: var(--accent-pink); }
+    .btn-copy:hover { background: var(--accent-pink); border-color: var(--accent-pink); color: white; }
 
     /* footer */
     footer {
@@ -303,8 +289,7 @@
       .product-info { padding: 10px; }
       .product-title { font-size: 0.75rem; }
       .price { font-size: 0.85rem; }
-      .btn-buy { font-size: 0.6rem; padding: 5px 10px; }
-      .btn-copy { font-size: 0.5rem; padding: 4px 8px; }
+      .btn-copy { font-size: 0.55rem; padding: 6px 10px; }
     }
   </style>
 </head>
@@ -406,7 +391,6 @@
           <div class="product-info">
             <div class="product-title">Floral Crop Top</div>
             <div class="price">₹899</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-1.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -418,7 +402,6 @@
           <div class="product-info">
             <div class="product-title">Satin Cami Top</div>
             <div class="price">₹1,099</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-2.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -430,7 +413,6 @@
           <div class="product-info">
             <div class="product-title">Ribbed Knit Top</div>
             <div class="price">₹499</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-3.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -442,7 +424,6 @@
           <div class="product-info">
             <div class="product-title">Off-Shoulder Top</div>
             <div class="price">₹1,199</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-4.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -454,7 +435,6 @@
           <div class="product-info">
             <div class="product-title">Off-Shoulder Top</div>
             <div class="price">₹1,199</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-5.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -466,7 +446,6 @@
           <div class="product-info">
             <div class="product-title">Off-Shoulder Top</div>
             <div class="price">₹1,199</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-6.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -478,7 +457,6 @@
           <div class="product-info">
             <div class="product-title">Off-Shoulder Top</div>
             <div class="price">₹1,199</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-7.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -490,7 +468,6 @@
           <div class="product-info">
             <div class="product-title">Off-Shoulder Top</div>
             <div class="price">₹1,199</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-8.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -502,7 +479,6 @@
           <div class="product-info">
             <div class="product-title">Off-Shoulder Top</div>
             <div class="price">₹1,199</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-9.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -514,7 +490,6 @@
           <div class="product-info">
             <div class="product-title">Off-Shoulder Top</div>
             <div class="price">₹1,199</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-10.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -526,7 +501,6 @@
           <div class="product-info">
             <div class="product-title">Off-Shoulder Top</div>
             <div class="price">₹1,199</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-11.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -538,7 +512,6 @@
           <div class="product-info">
             <div class="product-title">Off-Shoulder Top</div>
             <div class="price">₹1,199</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-12.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -550,7 +523,6 @@
           <div class="product-info">
             <div class="product-title">Off-Shoulder Top</div>
             <div class="price">₹1,199</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-13.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -562,7 +534,6 @@
           <div class="product-info">
             <div class="product-title">Off-Shoulder Top</div>
             <div class="price">₹1,199</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/top-14.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -575,7 +546,6 @@
           <div class="product-info">
             <div class="product-title">Pleated Mini Skirt</div>
             <div class="price">₹1,299</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/skirt-1.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -587,7 +557,6 @@
           <div class="product-info">
             <div class="product-title">Denim Midi Skirt</div>
             <div class="price">₹1,599</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/skirt-2.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -599,7 +568,6 @@
           <div class="product-info">
             <div class="product-title">Denim Midi Skirt</div>
             <div class="price">₹1,599</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/skirt-3.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -611,7 +579,6 @@
           <div class="product-info">
             <div class="product-title">Denim Midi Skirt</div>
             <div class="price">₹1,599</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/skirt-4.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -623,7 +590,6 @@
           <div class="product-info">
             <div class="product-title">Denim Midi Skirt</div>
             <div class="price">₹1,599</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/skirt-5.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -636,7 +602,6 @@
           <div class="product-info">
             <div class="product-title">Oversized Cotton Shirt</div>
             <div class="price">₹1,499</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/shirt-1.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -648,7 +613,6 @@
           <div class="product-info">
             <div class="product-title">Linen Button-Down</div>
             <div class="price">₹1,799</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/shirt-2.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -660,7 +624,6 @@
           <div class="product-info">
             <div class="product-title">Satin Button-Down</div>
             <div class="price">₹1,899</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/shirt-3.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -672,7 +635,6 @@
           <div class="product-info">
             <div class="product-title">Cropped Shirt</div>
             <div class="price">₹1,299</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/shirt-4.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -684,7 +646,6 @@
           <div class="product-info">
             <div class="product-title">Cropped Shirt</div>
             <div class="price">₹1,299</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/shirt-5.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -696,7 +657,6 @@
           <div class="product-info">
             <div class="product-title">Cropped Shirt</div>
             <div class="price">₹1,299</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/shirt-6.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -708,7 +668,6 @@
           <div class="product-info">
             <div class="product-title">Cropped Shirt</div>
             <div class="price">₹1,299</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/shirt-7.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -721,7 +680,6 @@
           <div class="product-info">
             <div class="product-title">High-Waist Straight Jeans</div>
             <div class="price">₹959</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/jean-1.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -733,7 +691,6 @@
           <div class="product-info">
             <div class="product-title">Wide-Leg Denim</div>
             <div class="price">₹599</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/jean-2.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -745,7 +702,6 @@
           <div class="product-info">
             <div class="product-title">Mom Fit Jeans</div>
             <div class="price">₹659</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/jean-3.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -757,7 +713,6 @@
           <div class="product-info">
             <div class="product-title">Cargo Denim</div>
             <div class="price">₹959</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/jean-4.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -769,7 +724,6 @@
           <div class="product-info">
             <div class="product-title">Cargo Denim</div>
             <div class="price">₹599</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/jean-5.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -781,7 +735,6 @@
           <div class="product-info">
             <div class="product-title">Cargo Denim</div>
             <div class="price">₹959</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/jean-6.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -794,7 +747,6 @@
           <div class="product-info">
             <div class="product-title">Graphic Oversized Tee</div>
             <div class="price">₹499</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/tshirt-1.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -806,7 +758,6 @@
           <div class="product-info">
             <div class="product-title">Basic Crop Tee</div>
             <div class="price">₹499</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/tshirt-2.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -818,7 +769,6 @@
           <div class="product-info">
             <div class="product-title">Puff Sleeve Tee</div>
             <div class="price">₹429</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/tshirt-3.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -830,7 +780,6 @@
           <div class="product-info">
             <div class="product-title">Tie-Dye Tee</div>
             <div class="price">₹499</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/tshirt-4.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -842,7 +791,6 @@
           <div class="product-info">
             <div class="product-title">Tie-Dye Tee</div>
             <div class="price">₹439</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/tshirt-5.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -854,7 +802,6 @@
           <div class="product-info">
             <div class="product-title">Tie-Dye Tee</div>
             <div class="price">₹399</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/tshirt-6.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -866,7 +813,6 @@
           <div class="product-info">
             <div class="product-title">Tie-Dye Tee</div>
             <div class="price">₹429</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/tshirt-7.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -878,7 +824,6 @@
           <div class="product-info">
             <div class="product-title">Tie-Dye Tee</div>
             <div class="price">₹429</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/tshirt-8.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -890,7 +835,6 @@
           <div class="product-info">
             <div class="product-title">Tie-Dye Tee</div>
             <div class="price">₹429</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/tshirt-9.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -902,7 +846,6 @@
           <div class="product-info">
             <div class="product-title">Tie-Dye Tee</div>
             <div class="price">₹429</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/tshirt-10.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -914,7 +857,6 @@
           <div class="product-info">
             <div class="product-title">Tie-Dye Tee</div>
             <div class="price">₹369</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('oopsie-img/tshirt-11.webp')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -927,7 +869,6 @@
           <div class="product-info">
             <div class="product-title">Cozy Fleece Hoodie</div>
             <div class="price">₹1,999</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('https://placehold.co/600x600/EAEAEA/333333?text=Fleece+Hoodie')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -939,7 +880,6 @@
           <div class="product-info">
             <div class="product-title">Oversized Zip-Up Hoodie</div>
             <div class="price">₹2,299</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('https://placehold.co/600x600/EAEAEA/333333?text=Zip+Up+Hoodie')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -951,7 +891,6 @@
           <div class="product-info">
             <div class="product-title">Graphic Print Hoodie</div>
             <div class="price">₹2,099</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('https://placehold.co/600x600/EAEAEA/333333?text=Graphic+Hoodie')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -963,7 +902,6 @@
           <div class="product-info">
             <div class="product-title">Cropped Hoodie</div>
             <div class="price">₹1,799</div>
-            <a href="#" class="btn-buy">Buy</a>
             <button class="btn-copy" onclick="copyImg('https://placehold.co/600x600/EAEAEA/333333?text=Cropped+Hoodie')">📋 Copy Image Link</button>
           </div>
         </div>
@@ -998,28 +936,6 @@
 <script>
   AOS.init({ once: true, duration: 700, easing: 'ease-out-quad' });
 
-  // ===== AUTO-BUILD BUY LINKS WITH PRE-FILLED PRODUCT NAME, PRICE + IMAGE URL =====
-  // This runs after images load so we capture the correct absolute URL
-  window.addEventListener('load', function() {
-    document.querySelectorAll('.product-card').forEach(function(card) {
-      var titleEl = card.querySelector('.product-title');
-      var priceEl = card.querySelector('.price');
-      var imgEl = card.querySelector('.product-img-holder img');
-      var buyBtn = card.querySelector('.btn-buy');
-      if (!titleEl || !priceEl || !imgEl || !buyBtn) return;
-
-      var title = titleEl.textContent.trim();
-      var price = priceEl.textContent.trim();
-      var imgSrc = imgEl.src; // already an absolute URL after page load
-
-      var message =
-        "Hi! I'm interested in the " + title + " (" + price + ")\n" +
-        "Image: " + imgSrc;
-
-      buyBtn.href = "https://ig.me/m/oopsie.coded?text=" + encodeURIComponent(message);
-    });
-  });
-
   // COPY IMAGE LINK FUNCTION
   function copyImg(src) {
     var fullUrl = new URL(src, window.location.href).href;
@@ -1029,12 +945,14 @@
         if (b.getAttribute('onclick') && b.getAttribute('onclick').includes(src)) {
           var original = b.innerHTML;
           b.innerHTML = '✅ Copied!';
+          b.style.background = '#E83A6A';
           b.style.borderColor = '#E83A6A';
-          b.style.color = '#E83A6A';
+          b.style.color = '#FFF';
           setTimeout(function () {
             b.innerHTML = original;
-            b.style.borderColor = '#DDD';
-            b.style.color = '#666';
+            b.style.background = '#111';
+            b.style.borderColor = '#111';
+            b.style.color = '#FFF';
           }, 1500);
         }
       });
